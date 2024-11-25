@@ -1,0 +1,6 @@
+rootProject.name = 'saga-pattern-demo'
+
+include 'web-bff'
+include 'inventory-api'
+include 'payment-api'
+include 'openapi'

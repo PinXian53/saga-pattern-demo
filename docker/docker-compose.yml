@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  zipkin:
+    image: openzipkin/zipkin:3.4
+    container_name: saga-zipkin
+    ports:
+      - "9411:9411"
+    environment:
+      - STORAGE_TYPE=mem
