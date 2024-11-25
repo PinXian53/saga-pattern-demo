@@ -3,3 +3,5 @@
 /payment-api/build/
 /build/
 /web-bff/build/
+/.gradle/
+/.idea/
